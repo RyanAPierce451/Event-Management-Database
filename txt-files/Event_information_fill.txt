@@ -1,0 +1,46 @@
+ALTER TABLE Event
+ADD COLUMN venue_id INTEGER,
+ADD CONSTRAINT fk_event_Venue
+    FOREIGN KEY (Venue_id)
+    REFERENCES Venue (Venue_id);
+
+
+
+
+
+Venue 1 - Norris Conference Centers – Houston / CityCentre
+1, "Tech Innovators Conference", "Join us for the Tech Innovators Conference, where leading experts in the field of technology will gather to share groundbreaking ideas and insights. Discover the latest trends, network with industry professionals, and gain valuable knowledge to stay ahead in the fast-paced world of technology.", October 20, 2023, 9:00 AM,  October 22, 2023, 8:00 PM, 500, 1
+
+2, "Charity Gala Dinner", "Be part of an unforgettable evening at our Charity Gala Dinner, dedicated to raising funds for a worthy cause. Enjoy a gourmet meal, live entertainment, and engaging guest speakers while contributing to making a positive impact on the community. Together, we can make a difference!",  December 8, 2023, 7:00 PM, December 8, 2023, 11:00 PM, 400, 1
+
+3, " Winter Wonderland Ball", "Experience the magic of the Winter Wonderland Ball, an enchanting evening filled with elegance and festivity. Dance the night away in a dazzling winter-themed setting, enjoy live music, indulge in delectable treats, and capture unforgettable memories amidst the glistening snowflakes.", January 28, 2024, 8:00 PM, January 29, 2024, 1:00 AM, 550, 1
+
+
+
+Venue 2 - Austin Convention Center
+4, "Global Business Summit", "Join global leaders, entrepreneurs, and industry experts at the Global Business Summit, where groundbreaking ideas and strategies for success will be shared. Network with influential professionals, attend insightful panel discussions, and explore opportunities for international collaborations. Be part of the global business revolution.", November 10, 2023, 9:00 AM, November 12, 2023, 6:00 PM, 12,000, 2
+
+5, "Music Festival Extravaganza", "Get ready for the ultimate music festival experience at the Austin Convention Center! Join us for three days of non-stop live performances by top artists across various genres. Immerse yourself in the electrifying atmosphere, indulge in delicious food and drinks, and create unforgettable memories with fellow music enthusiasts.", April 5, 2024, 2:00 PM, April 7, 2024, 11:00 PM, 13,500, 2
+
+6, "Health and Wellness Expo", "Take charge of your well-being at the Health and Wellness Expo. Discover the latest advancements in healthcare, participate in fitness workshops, attend informative seminars by renowned experts, and explore a variety of wellness products and services. Join us in promoting a healthier and happier lifestyle for all.", June 15, 2024, 10:00 AM, June 16, 2024, 6:00 PM, 10,000, 2
+
+Venue 3 - white oak conference center
+7, "Enchanted Garden Wedding", "Step into an enchanting world as we celebrate the union of love amidst the White Oak Butterfly and Hummingbird Garden. Experience the magic of nature's beauty and share your vows in a picturesque setting. After the ceremony, guests can enjoy a delightful reception in the grand dining hall, savoring the elegance of this stately building.", July 20, 2024, 4:00 PM, July 20, 2024, 10:00 PM, 150, 3
+
+8, "Poolside Summer Soiree", "Dive into the ultimate summer fun with a Poolside Summer Soiree at the White Oak Pool! Enjoy the vibrant atmosphere with live music, refreshing cocktails, and the company of friends. Whether you're lounging by the pool or taking a dip, this event promises to be an unforgettable experience under the sun.", August 15, 2024, 2:00 PM, August 15, 2024, 8:00 PM, 180, 3
+
+9, "Business Leaders Forum", "Join us for the Business Leaders Forum, a gathering of visionaries and entrepreneurs. This event is perfect for networking, sharing innovative ideas, and forging partnerships. The Houston Ballroom provides an ideal ambiance for insightful discussions and collaborative sessions, enhancing your business potential.", November 5, 2024, 9:00 AM, November 5, 2024, 5:00 PM, 100, 3
+
+Venue 4 - george r brown convention center
+10, "Advanced Manufacturing Expo: Unleashing the Potential of 3D Printing", "Join us for the Advanced Manufacturing Expo, a showcase of cutting-edge additive manufacturing technologies and 3D printing innovations. Discover the limitless possibilities of this transformative industry, from aerospace to healthcare and beyond. Engage with industry experts, witness live demonstrations, and explore the future of manufacturing.", September 15, 2024, 9:00 AM, September 17, 2024, 6:00 PM, 8,500, 4
+
+11, "Houston Culinary Fest: A Taste of the World", "Savor the flavors of the world at the Houston Culinary Fest! Embark on a gastronomic journey as renowned chefs showcase their culinary masterpieces. From exotic spices to delectable desserts, indulge in a variety of cuisines, culinary workshops, and food tastings. An event that will delight every food enthusiast.", April 5, 2025, 12:00 PM, April 7, 2025, 10:00 PM, 10,200, 4
+
+12, "Houston Film Festival: Celebrating Cinematic Artistry", "Lights, camera, action! Experience the magic of cinema at the Houston Film Festival, where filmmakers from around the world showcase their creative brilliance. Enjoy a diverse selection of feature films, documentaries, and short films that provoke emotions, spark conversations, and celebrate the art of storytelling.", June 20, 2025, 3:00 PM, June 25, 2025, 11:00 PM, 11,700, 4
+
+Venue 5 - houston stampede event center
+13, "Country Music Fest: Honky Tonk Jam", "Get ready for a toe-tapping Country Music Fest at the Houston Stampede Event Center! Immerse yourself in the spirit of country music as talented musicians take the stage. Enjoy live performances of your favorite country hits, line dancing lessons, and a mechanical bull-riding contest for thrill-seekers. Come on down for a night of country fun!", November 5, 2024, 7:00 PM, November 6, 2024, 1:00 AM, 3,200, 5
+
+14, "Wild West Gala: A Night Under the Texas Stars", "Step back in time to the Wild West era at the Houston Stampede Event Center's Wild West Gala. Embrace the spirit of Texas with a night filled with western charm, line dancing, and thrilling mechanical bull rides. Enjoy live country music, indulge in delicious BBQ, and experience an evening under the Texas stars you won't forget.", November 12, 2024, 6:00 PM, November 12, 2024, 11:00 PM, 3,200, 5
+
+15, "Southern Elegance Ball: A Night of Glitz and Glamour", "Prepare for an evening of opulence and Southern charm at the Houston Stampede Event Center's Southern Elegance Ball. Dress in your finest attire and dance the night away on the beautiful hardwood dance floor. Enjoy exquisite cuisine, live entertainment, and capture the essence of classic elegance under the Texas moonlight.", April 30, 2025, 7:00 PM, May 1, 2025, 1:00 AM, 3,600, 5

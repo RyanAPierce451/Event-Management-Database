@@ -1,0 +1,123 @@
+Event 1 '500' out of 600 tickets sold
+Event 2 '400' out of 600 tickets sold
+Event 3 '550' out of 600 tickets sold
+
+Event 4 '12000' out of 14000 tickets sold
+Event 5 '13500' out of 14000 tickets sold
+Event 6 '10000' out of 14000 tickets sold
+
+Event 7 '150' out of 200 tickets sold
+Event 8 '180' out of 200 tickets sold
+Event 9 '100' out of 200 tickets sold
+
+Event 10 '8500' out of 12000 tickets sold
+Event 11 '10200' out of 12000 tickets sold
+Event 12 '11700' out of 12000 tickets sold
+
+Event 13 '3200' out of 4000 tickets sold
+Event 14 '3200' out of 4000 tickets sold
+Event 15 '3600' out of 4000 tickets sold
+
+
+Event 1
+Ticket_id: 1, Event_id: 1, Attendee_id: 1, Ticket_type: Regular, Ticket_price: $70, Ticket_quantity: 80
+Ticket_id: 2, Event_id: 1, Attendee_id: 2, Ticket_type: Regular, Ticket_price: $70, Ticket_quantity: 120
+Ticket_id: 3, Event_id: 1, Attendee_id: 5, Ticket_type: Regular, Ticket_price: $70, Ticket_quantity: 60
+Ticket_id: 4, Event_id: 1, Attendee_id: 4, Ticket_type: Regular, Ticket_price: $70, Ticket_quantity: 100
+Ticket_id: 5, Event_id: 1, Attendee_id: 5, Ticket_type: Regular, Ticket_price: $70, Ticket_quantity: 140
+
+Event 2
+Ticket_id: 6, Event_id: 2, Attendee_id: 2, Ticket_type: Common, Ticket_price: $65, Ticket_quantity: 50
+Ticket_id: 7, Event_id: 2, Attendee_id: 6, Ticket_type: Common, Ticket_price: $65, Ticket_quantity: 65
+Ticket_id: 8, Event_id: 2, Attendee_id: 3, Ticket_type: Common, Ticket_price: $65, Ticket_quantity: 60
+Ticket_id: 9, Event_id: 2, Attendee_id: 1, Ticket_type: Common, Ticket_price: $65, Ticket_quantity: 130
+Ticket_id: 10, Event_id: 2, Attendee_id: 5, Ticket_type: Common, Ticket_price: $65, Ticket_quantity: 95
+
+Event 3
+Ticket_id: 11, Event_id: 3, Attendee_id: 4, Ticket_type: Regular, Ticket_price: $100, Ticket_quantity: 50
+Ticket_id: 12, Event_id: 3, Attendee_id: 4, Ticket_type: Regular, Ticket_price: $100, Ticket_quantity: 65
+Ticket_id: 13, Event_id: 3, Attendee_id: 1, Ticket_type: Regular, Ticket_price: $100, Ticket_quantity: 60
+Ticket_id: 14, Event_id: 3, Attendee_id: 1, Ticket_type: Regular, Ticket_price: $100, Ticket_quantity: 130
+Ticket_id: 15, Event_id: 3, Attendee_id: 3, Ticket_type: Regular, Ticket_price: $100, Ticket_quantity: 245
+
+Event 4
+Ticket_id: 16, Event_id: 4, Attendee_id: 1, Ticket_type: Standard, Ticket_price: $160, Ticket_quantity: 3000
+Ticket_id: 17, Event_id: 4, Attendee_id: 2, Ticket_type: Standard, Ticket_price: $160, Ticket_quantity: 2500
+Ticket_id: 18, Event_id: 4, Attendee_id: 6, Ticket_type: Standard, Ticket_price: $160, Ticket_quantity: 2000
+Ticket_id: 19, Event_id: 4, Attendee_id: 4, Ticket_type: Standard, Ticket_price: $160, Ticket_quantity: 3500
+Ticket_id: 20, Event_id: 4, Attendee_id: 5, Ticket_type: Standard, Ticket_price: $160, Ticket_quantity: 2000
+
+Event 5
+Ticket_id: 21, Event_id: 5, Attendee_id: 2, Ticket_type: Common, Ticket_price: $80, Ticket_quantity: 3000
+Ticket_id: 22, Event_id: 5, Attendee_id: 6, Ticket_type: Common, Ticket_price: $80, Ticket_quantity: 2500
+Ticket_id: 23, Event_id: 5, Attendee_id: 3, Ticket_type: Common, Ticket_price: $80, Ticket_quantity: 2000
+Ticket_id: 24, Event_id: 5, Attendee_id: 3, Ticket_type: Common, Ticket_price: $80, Ticket_quantity: 3500
+Ticket_id: 25, Event_id: 5, Attendee_id: 5, Ticket_type: Common, Ticket_price: $80, Ticket_quantity: 2850
+Ticket_id: 26, Event_id: 5, Attendee_id: 4, Ticket_type: Common, Ticket_price: $80, Ticket_quantity: 1650
+
+Event 6
+Ticket_id: 27, Event_id: 6, Attendee_id: 2, Ticket_type: Addmission, Ticket_price: $100, Ticket_quantity: 3000
+Ticket_id: 28, Event_id: 6, Attendee_id: 3, Ticket_type: Addmission, Ticket_price: $100, Ticket_quantity: 2500
+Ticket_id: 29, Event_id: 6, Attendee_id: 3, Ticket_type: Addmission, Ticket_price: $100, Ticket_quantity: 2000
+Ticket_id: 30, Event_id: 6, Attendee_id: 1, Ticket_type: Addmission, Ticket_price: $100, Ticket_quantity: 2500
+
+Event 7
+Ticket_id: 31, Event_id: 7, Attendee_id: 4, Ticket_type: Pass, Ticket_price: $75, Ticket_quantity: 30
+Ticket_id: 32, Event_id: 7, Attendee_id: 3, Ticket_type: Pass, Ticket_price: $75, Ticket_quantity: 20
+Ticket_id: 33, Event_id: 7, Attendee_id: 4, Ticket_type: Pass, Ticket_price: $75, Ticket_quantity: 25
+Ticket_id: 34, Event_id: 7, Attendee_id: 6, Ticket_type: Pass, Ticket_price: $75, Ticket_quantity: 25
+Ticket_id: 35, Event_id: 7, Attendee_id: 5, Ticket_type: Pass, Ticket_price: $75, Ticket_quantity: 50
+
+Event 8
+Ticket_id: 36, Event_id: 8, Attendee_id: 1, Ticket_type: Pass, Ticket_price: $90, Ticket_quantity: 30
+Ticket_id: 37, Event_id: 8, Attendee_id: 3, Ticket_type: Pass, Ticket_price: $90, Ticket_quantity: 20
+Ticket_id: 38, Event_id: 8, Attendee_id: 2, Ticket_type: Pass, Ticket_price: $90, Ticket_quantity: 15
+Ticket_id: 39, Event_id: 8, Attendee_id: 5, Ticket_type: Pass, Ticket_price: $90, Ticket_quantity: 30
+Ticket_id: 40, Event_id: 8, Attendee_id: 4, Ticket_type: Pass, Ticket_price: $90, Ticket_quantity: 85
+
+Event 9
+Ticket_id: 41, Event_id: 9, Attendee_id: 5, Ticket_type: Standard, Ticket_price: $50, Ticket_quantity: 20
+Ticket_id: 42, Event_id: 9, Attendee_id: 3, Ticket_type: Standard, Ticket_price: $50, Ticket_quantity: 15
+Ticket_id: 43, Event_id: 9, Attendee_id: 6, Ticket_type: Standard, Ticket_price: $50, Ticket_quantity: 10
+Ticket_id: 44, Event_id: 9, Attendee_id: 1, Ticket_type: Standard, Ticket_price: $50, Ticket_quantity: 25
+Ticket_id: 45, Event_id: 9, Attendee_id: 4, Ticket_type: Standard, Ticket_price: $50, Ticket_quantity: 30
+
+Event 10
+Ticket_id: 46, Event_id: 10, Attendee_id: 1, Ticket_type: Regular, Ticket_price: $60, Ticket_quantity: 2000
+Ticket_id: 47, Event_id: 10, Attendee_id: 2, Ticket_type: Regular, Ticket_price: $60, Ticket_quantity: 1500
+Ticket_id: 48, Event_id: 10, Attendee_id: 4, Ticket_type: Regular, Ticket_price: $60, Ticket_quantity: 2000
+Ticket_id: 49, Event_id: 10, Attendee_id: 4, Ticket_type: Regular, Ticket_price: $60, Ticket_quantity: 2000
+
+Event 11
+Ticket_id: 50, Event_id: 11, Attendee_id: 5, Ticket_type: Addmission, Ticket_price: $90, Ticket_quantity: 2500
+Ticket_id: 51, Event_id: 11, Attendee_id: 6, Ticket_type: Addmission, Ticket_price: $90, Ticket_quantity: 2000
+Ticket_id: 52, Event_id: 11, Attendee_id: 3, Ticket_type: Addmission, Ticket_price: $90, Ticket_quantity: 2200
+Ticket_id: 53, Event_id: 11, Attendee_id: 1, Ticket_type: Addmission, Ticket_price: $90, Ticket_quantity: 3500
+
+Event 12
+Ticket_id: 54, Event_id: 12, Attendee_id: 2, Ticket_type: Pass, Ticket_price: $80, Ticket_quantity: 3000
+Ticket_id: 55, Event_id: 12, Attendee_id: 5, Ticket_type: Pass, Ticket_price: $80, Ticket_quantity: 2500
+Ticket_id: 56, Event_id: 12, Attendee_id: 2, Ticket_type: Pass, Ticket_price: $80, Ticket_quantity: 3000
+Ticket_id: 57, Event_id: 12, Attendee_id: 4, Ticket_type: Pass, Ticket_price: $80, Ticket_quantity: 3200
+
+Event 13
+Ticket_id: 58, Event_id: 13, Attendee_id: 5, Ticket_type: Common, Ticket_price: $100, Ticket_quantity: 800
+Ticket_id: 59, Event_id: 13, Attendee_id: 6, Ticket_type: Common, Ticket_price: $100, Ticket_quantity: 600
+Ticket_id: 60, Event_id: 13, Attendee_id: 3, Ticket_type: Common, Ticket_price: $100, Ticket_quantity: 500
+Ticket_id: 61, Event_id: 13, Attendee_id: 6, Ticket_type: Common, Ticket_price: $100, Ticket_quantity: 1300
+
+Event 14
+Ticket_id: 62, Event_id: 14, Attendee_id: 2, Ticket_type: Pass, Ticket_price: $90, Ticket_quantity: 800
+Ticket_id: 63, Event_id: 14, Attendee_id: 3, Ticket_type: Pass, Ticket_price: $90, Ticket_quantity: 600
+Ticket_id: 64, Event_id: 14, Attendee_id: 4, Ticket_type: Pass, Ticket_price: $90, Ticket_quantity: 600
+Ticket_id: 65, Event_id: 14, Attendee_id: 6, Ticket_type: Pass, Ticket_price: $90, Ticket_quantity: 800
+Ticket_id: 66, Event_id: 14, Attendee_id: 1, Ticket_type: Pass, Ticket_price: $90, Ticket_quantity: 400
+
+Event 15
+Ticket_id: 67, Event_id: 15, Attendee_id: 1, Ticket_type: Pass, Ticket_price: $80, Ticket_quantity: 800
+Ticket_id: 68, Event_id: 15, Attendee_id: 4, Ticket_type: Pass, Ticket_price: $80, Ticket_quantity: 700
+Ticket_id: 69, Event_id: 15, Attendee_id: 2, Ticket_type: Pass, Ticket_price: $80, Ticket_quantity: 600
+Ticket_id: 70, Event_id: 15, Attendee_id: 5, Ticket_type: Pass, Ticket_price: $80, Ticket_quantity: 900
+Ticket_id: 71, Event_id: 15, Attendee_id: 3, Ticket_type: Pass, Ticket_price: $80, Ticket_quantity: 600
+
+
