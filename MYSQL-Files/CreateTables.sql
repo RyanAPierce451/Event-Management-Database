@@ -1,0 +1,71 @@
+CREATE DATABASE Event_Managment;
+USE Event_Managment;
+
+-- Create Venue table
+CREATE TABLE Venue (
+    Venue_id INTEGER NOT NULL,
+    Venue_name VARCHAR(255) NOT NULL,
+    Venue_capacity INTEGER NOT NULL,
+    Venue_amenities VARCHAR(500),
+    Venue_availability VARCHAR(100),
+    PRIMARY KEY (Venue_id)
+);
+
+-- Create Event table
+CREATE TABLE Event (
+    Event_id INTEGER NOT NULL,
+    Event_title VARCHAR(255) NOT NULL,
+    Event_description VARCHAR(500),
+    Event_start_datetime DATETIME NOT NULL,
+    Event_end_datetime DATETIME NOT NULL,
+    Event_tickets_sold INTEGER NOT NULL,
+    Venue_id INTEGER NOT NULL,
+    PRIMARY KEY (Event_id),
+    FOREIGN KEY (Venue_id) REFERENCES Event (Venue_id)
+);
+
+-- Create Attendee table
+CREATE TABLE Attendee (
+    Attendee_id INTEGER NOT NULL,
+    Attendee_vendor_name VARCHAR(255) NOT NULL,
+    Attendee_website VARCHAR(100) NOT NULL,
+    PRIMARY KEY (Attendee_id)
+);
+
+-- Create Session table
+CREATE TABLE Session (
+    Session_id INTEGER NOT NULL,
+    Event_id INTEGER NOT NULL,
+    Session_title VARCHAR(255) NOT NULL,
+    Session_description VARCHAR(500),
+    Session_start_datetime DATETIME NOT NULL,
+    Session_end_datetime DATETIME NOT NULL,
+    PRIMARY KEY (Session_id),
+    FOREIGN KEY (Event_id) REFERENCES Event (Event_id)
+);
+
+-- Create Speaker table
+CREATE TABLE Speaker (
+    Speaker_id INTEGER NOT NULL,
+    Session_id INTEGER NOT NULL,
+    Speaker_first_name VARCHAR(100) NOT NULL,
+    Speaker_last_name VARCHAR(100) NOT NULL,
+    Speaker_bio VARCHAR(500),
+    Speaker_email VARCHAR(255) NOT NULL,
+    Speaker_phone VARCHAR(20),
+    PRIMARY KEY (Speaker_id),
+    FOREIGN KEY (Session_id) REFERENCES Session (Session_id)
+);
+
+-- Create Ticket table
+CREATE TABLE Ticket (
+    Ticket_id INTEGER NOT NULL,
+    Event_id INTEGER NOT NULL,
+    Attendee_id INTEGER NOT NULL,
+    Ticket_type VARCHAR(100),
+    Ticket_price DECIMAL(10, 2) NOT NULL,
+    Ticket_quantity INTEGER NOT NULL,
+    PRIMARY KEY (Ticket_id),
+    FOREIGN KEY (Event_id) REFERENCES Event (Event_id),
+    FOREIGN KEY (Attendee_id) REFERENCES Attendee (Attendee_id)
+);
